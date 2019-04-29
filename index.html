@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dynasty8</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
+      <header class="header_lateral inicio"> <!-- el espacio separa dos class distintas -->
+        <div class="header_contenido contenedor">
+          <div class="barra">
+              <a href="/">
+                <img src="img/logo.png" alt="Logotipo">
+              </a>
+            <nav id="navegacion" class="navegacion">
+              <a href="#">Nosotros</a>
+              <a href="#">Anuncios</a>
+              <a href="#">Blog</a>
+              <a href="#">Contacto</a>
+            </nav>
+          </div>
+          <h1>La mejor decision que puedes tomar</h1>
+        </div> <!-- contenedor principal (cabecera) -->
+      </header>
+
+      <section class="contenedor section"> <!-- primera seccion independiente, trata de lo que ofrece el servicio -->
+        <h2 class="centrar_texto">Más Sobre Nosotros</h2>
+
+        <div class="iconos_nosotros">
+          <div class="icono">
+            <img width="123px" height="93px;" src="img/candado.png" alt="icono seguridad"> <!-- encontre una pagina donde hay distintos packs de iconos y los puse como img. fuente:www.flaticon.es -->
+            <h3>Seguridad</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+        <div class="icono">
+          <img width="123px" height="93px" src="img/reloj.png" alt="icono tiempo">
+          <h3>A Tiempo</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+
+        <div class="icono">
+          <img width="123px" height="93px" src="img/efectivo.png" alt="icono precio">
+          <h3>El Mejor Precio</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+
+        </div>
+      </section>
+
+      <main class="section contenedor"> <!-- lo principal de la pagina -->
+        <h2 class="centrar_texto">Propiedades en Venta</h2> <!-- decidi agregar un clase para centrar texto, creo que lo hace mas facil asi -->
+
+          <div class="contenedor_anuncios">
+
+            <div class="anuncio">
+              <img width="311" height="233" src="img/casa.jpg" alt="casa">
+              <div class="contenido_anuncio">
+                <h3>Casa en Norte de la Ciudad</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+                <p class="precio">$3,000,000</p>
+
+                  <ul class="iconos_caracteristicas"> <!-- las listas hacen mas facil de englobar un contenido del mismo tipo -->
+                    <li>
+                      <img width="50" height="53" src="img/garaje.png" alt="icono garaje">
+                      <p>2</p>
+                    </li>
+                    <li>
+                      <img width="50" height="53" src="img/cama.png" alt="icono habitaciones">
+                      <p>6</p>
+                    </li>
+                    <li>
+                      <img width="50" height="53" src="img/wc.png" alt="icono baño">
+                      <p>3</p>
+                    </li>
+                  </ul>
+
+                  <a href="#" class=" boton boton_amarillo dblock">Ver Propiedad</a> <!-- dblock es display block -->
+              </div>
+            </div>
+
+            <div class="anuncio">
+              <img width="311" height="233" src="img/delperroheights.jpg" alt="delperroheights">
+              <div class="contenido_anuncio">
+                <h3>Departamento en Del Perro Heights</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+                <p class="precio">$2,500,000</p>
+
+                  <ul class="iconos_caracteristicas">
+                    <li>
+                      <img  width="53" height="53" src="img/garaje.png" alt="icono garaje">
+                      <p>6</p>
+                    </li>
+                    <li>
+                      <img  width="53" height="53" src="img/cama.png" alt="icono habitaciones">
+                      <p>3</p>
+                    </li>
+                    <li>
+                      <img width="53" height="53" src="img/wc.png" alt="icono baño">
+                      <p>2</p>
+                    </li>
+                  </ul>
+
+                  <a href="#" class="boton boton_amarillo dblock">Ver Propiedad</a>
+              </div>
+            </div>
+
+            <div class="anuncio">
+              <img width="311" height="233" src="img/tinseltowers.jpg" alt="tinseltowers">
+              <div class="contenido_anuncio">
+                <h3>Departamento en Tinsel Towers</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+                <p class="precio">$2,000,000</p>
+
+                  <ul class="iconos_caracteristicas">
+                    <li>
+                      <img  width="53" height="53" src="img/garaje.png" alt="icono garaje">
+                      <p>4</p>
+                    </li>
+                    <li>
+                      <img width="53" height="53" src="img/cama.png" alt="icono habitaciones">
+                      <p>3</p>
+                    </li>
+                    <li>
+                      <img width="53" height="53" src="img/wc.png" alt="icono baño">
+                      <p>3</p>
+                    </li>
+                  </ul>
+
+                  <a href="#" class="boton boton_amarillo dblock">Ver Propiedad</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="ver_todas">
+            <a href="#" class="boton boton_verde dblock">Ver Todas</a>
+          </div>
+
+      </main>
+
+      <section class="imagen_contacto"> <!-- segunda seccion independiente sobre como registrarse -->
+        <div class="contenedor contenido_contacto">
+          <h2>Encuentra el lugar de tu sueños</h2>
+          <p>Llena el formulario de contacto y un asesor se pondrá en contacto contigo</p>
+          <a href="#" class="boton boton_amarillo dblock">Contactános</a>
+        </div>
+      </section>
+
+      <section class="testimoniales"> <!-- tercera seccion independiente: testimoniales -->
+        <h3 class="centrar_texto">Testimoniales</h3>
+        <div class="testimonial">
+
+          <blockquote> <!-- se usa para escibir una cita textual el efecto que es que crea unos espacios a la derecha y a la izquierda del texto, para que se diferencie de los demás. -->
+            "El personal se comportó de una excelente forma, muy buena atención y la casa que me ofrecieron cumple con todas mis expectativas"
+          </blockquote>
+          <p>- Judith Gzz</p>
+        </div>
+      </section>
+
+      <footer class="footer_lateral section"> <!-- pie de pagina, la llamé section tambien -->
+        <div class="contenedor contenedor_footer">
+          <nav class="navegacion"> <!-- usaré la misma clase que usé en el header -->
+            <a href="#">Nosotros</a>
+            <a href="#">Anuncios</a>
+            <a href="#">Blog</a>
+            <a href="#">Contacto</a>
+          </nav>
+          <p class="copyright">Todos los Derechos Reservados 2019 &copy; </p> <!-- linea de código del simbolo de derechos reservados -->
+        </div>
+      </footer>
+
+
+
+
+  </body>
+  </html>
